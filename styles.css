@@ -8,14 +8,14 @@
 }
 body{
     min-height: 100vh;
-    background-color: skyblue;
+  
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .container{
     width: 900px;
-    height: 700px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,8 +27,11 @@ h1{
 header{
     width: 300px;
     padding: 30px;
-    
 }
+img{
+    width: 50px;
+}   
+
 h2{
     font-size: 14px;
 }
@@ -40,33 +43,39 @@ p{
 }
 main{
     display: grid;
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 150px 150px;
+    grid-template-columns: 170px 170px 170px;
+    grid-template-rows: 190px 190px;
     grid-gap: 15px;
+    
 }
 section{
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    
+    
 }
 
 .section1{
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.417);
 }
 .section2{
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.417);
 }
 .section3{
-    background-color: mediumorchid;
+    background-color: rgba(186, 85, 211, 0.417);
 }
 .section4{
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0.417);
 }
 .section5{
-    background-color: greenyellow;
+    background-color: rgba(172, 255, 47, 0.417);
 }
 .section6{
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0.417);
 }
 /*
 .container{
